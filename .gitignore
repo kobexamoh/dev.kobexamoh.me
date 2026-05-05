@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project-specific
+/scratchpad/
+/learning-notes/
+*.transcript.md
+*.draft.md
+AGENTS.md

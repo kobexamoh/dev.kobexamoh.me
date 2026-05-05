@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
+/*
+  Design tokens extracted from the current static site (kobexamoh.me)
+  These map the existing visual identity into Tailwind v4's @theme system.
+  We'll evolve these over time as the design system matures.
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Core palette — from current style.css */
+  --background: #FCFCFC;       /* near-white page background */
+  --foreground: #36454F;       /* charcoal — body text and nav */
+  --accent: #cea65a;           /* warm gold — headings, highlights */
+  --accent-light: #E8D4B0;    /* soft gold — link underlines, brush stroke effect */
+  --visited: #2E0219;          /* dark wine — visited links */
+  --active: #C2B6CE;           /* muted lavender — active links */
+  --surface: #f0f2f5;          /* light gray-blue — card/frame backgrounds */
+  --takeaway-bg: rgba(193, 188, 172, 0.24); /* warm gray — callout blocks */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-visited: var(--visited);
+  --color-active: var(--active);
+  --color-surface: var(--surface);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
