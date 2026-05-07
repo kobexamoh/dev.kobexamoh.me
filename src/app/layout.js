@@ -1,5 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// Font imports
+import { Oxygen } from "next/font/google";
 import "./globals.css";
+
+// Font configuration
+const oxygen = Oxygen({
+  weight: ['300', '400', '700'],
+  subsets: ['latin'],
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
