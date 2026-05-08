@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${oxygen.weight} h-full antialiased`}
+      className={`${oxygen.className} h-full antialiased`} // Next.js does it differently...ignoring the h-full and antialiased part, think of the .className part as saying "hey, add the class name that next/font generated for the oxygen font to the html element so that the font can be made available to the entire app""
     >
       <body className="min-h-full flex flex-col">
-        {/* Navigation */}
+        {/* Navigation: TODO: run prettier or something on it so it reformats nicely*/}
 	<nav className="navbar navbar-expand-md navbar-light mb-4 px-4 pe-md-5">
 		<a className="navbar-brand" id="homeicon" href="/"><strong>ka.</strong></a>
 		<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
