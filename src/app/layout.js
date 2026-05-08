@@ -21,26 +21,26 @@ export default function RootLayout({ children }) {
       className={`${oxygen.weight} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light mb-4 px-4 pe-md-5">
-		<a class="navbar-brand" id="homeicon" href="/"><strong>ka.</strong></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        {/* Navigation */}
+	<nav className="navbar navbar-expand-md navbar-light mb-4 px-4 pe-md-5">
+		<a className="navbar-brand" id="homeicon" href="/"><strong>ka.</strong></a>
+		<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
 			aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span className="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="/about">about</a>
+		<div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+			<ul className="navbar-nav mr-auto">
+				<li className="nav-item">
+					<a className="nav-link" href="/about">about</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/work">work</a>
+				<li className="nav-item">
+					<a className="nav-link" href="/work">work</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/blog">blog</a>
+				<li className="nav-item">
+					<a className="nav-link" href="/blog">blog</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/contact">contact</a>
+				<li className="nav-item">
+					<a className="nav-link" href="/contact">contact</a>
 				</li>
 			</ul>
 		</div>
