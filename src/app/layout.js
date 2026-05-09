@@ -22,8 +22,10 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         {/* Navigation: TODO: run prettier or something on it so it reformats nicely*/}
-  <nav>ka. | about | work | writing | contact</nav>
-	{children}<footer>Copyright 2026</footer></body>
+        <nav>ka. | about | work | writing | contact</nav>
+        {children}
+        <footer>Copyright 2026</footer>
+      </body>
     </html>
   );
 }
