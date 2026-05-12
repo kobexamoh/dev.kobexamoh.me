@@ -4,9 +4,9 @@ import "./globals.css";
 
 // Font configuration
 const oxygen = Oxygen({
-  weight: ['300', '400', '700'],
-  subsets: ['latin'],
-})
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+});
 
 // TODO: update metadata to personal site
 export const metadata = {
