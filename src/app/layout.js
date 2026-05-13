@@ -1,5 +1,6 @@
 // Component imports
 import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
 
 // Font imports
 import { Oxygen } from "next/font/google";
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
         {/* Navigation: TODO: run prettier or something on it so it reformats nicely*/}
         <Nav />
         {children}
-        <footer>Copyright 2026</footer>
+        <Footer />
       </body>
     </html>
   );
