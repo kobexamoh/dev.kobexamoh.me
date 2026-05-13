@@ -14,9 +14,7 @@ export default function Footer() {
       <div>
         {/* TODO: replace date with JS or Next JS implementation so not hardcoded */}
         <p>Copyright 2026</p>
-        <p>
-            {/* TODO: little easter egg here. random quote for the week? lyric for the week? */}
-        </p>
+        <p>{/* TODO: little easter egg here. random quote for the week? lyric for the week? */}</p>
       </div>
     </footer>
   );
