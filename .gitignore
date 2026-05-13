@@ -47,5 +47,3 @@ next-env.d.ts
 *.draft.md
 AGENTS.md
 command-reference.md
-# only for the moment, will remove later
-/src/components/Footer.js
