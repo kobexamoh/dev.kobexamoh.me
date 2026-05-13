@@ -1,3 +1,6 @@
+// Component imports
+import Nav from '@/components/Nav';
+
 // Font imports
 import { Oxygen } from "next/font/google";
 import "./globals.css";
@@ -22,7 +25,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         {/* Navigation: TODO: run prettier or something on it so it reformats nicely*/}
-        <nav>ka. | about | work | writing | contact</nav>
+        <Nav />
         {children}
         <footer>Copyright 2026</footer>
       </body>
