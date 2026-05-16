@@ -1,4 +1,3 @@
-import Link from "next/link";
 // TODO: site easter egg after hovering for a bit? secret page for academic work or friends' portolios?
 export default function Footer() {
   return (
