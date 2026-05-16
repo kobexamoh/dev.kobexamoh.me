@@ -20,8 +20,8 @@ export default function Home() {
           , the in-house design agency at the University of Alberta.
         </p>
         <p className="mb-4">
-          My recent work includes building a component to display college affiliations on the university&apos;s site footers,
-          designing the landing page for{" "}
+          My recent work includes building a component to display college affiliations on the university&apos;s site
+          footers, designing the landing page for{" "}
           <a
             className="stylized-link"
             href="https://www.ualberta.ca/en/graduate-programs/online-masters-of-engineering-in-construction-engineering-and-management.html"

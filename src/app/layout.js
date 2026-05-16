@@ -1,6 +1,6 @@
 // Component imports
-import Nav from '@/components/Nav';
-import Footer from '@/components/Footer';
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 // Font imports
 import { Oxygen } from "next/font/google";
