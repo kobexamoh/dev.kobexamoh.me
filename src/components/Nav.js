@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="flex items-center justify-between px-4">
+    <nav className="flex items-center justify-between px-4 container mx-auto">
       <div className="font-bold text-lg">
         {/* TODO: replace text Link with favicon? make size smaller e.g. text-md? */}
         <Link href="/">ka.</Link>
