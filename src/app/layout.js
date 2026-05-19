@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         {/* Navigation: TODO: run prettier or something on it so it reformats nicely*/}
         <Nav />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 px-4">{children}</main>
         <Footer />
       </body>
     </html>
