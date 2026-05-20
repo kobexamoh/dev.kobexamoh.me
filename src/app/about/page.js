@@ -25,7 +25,7 @@ export default function About() {
               I enjoy working on projects where design, development, and content systems intersect – especially in
               environments where clarity and accessibility matter.
             </p>
-            <h2 className="text-4xl font-bold mb-4">outside of work</h2>
+            <h2 className="text-4xl font-bold mb-2">outside of work</h2>
             <p className="mb-4">
               Outside of development and design, I spend a lot of time with music: I play guitar and piano, collect
               records, and enjoy music production as a hobby. I enjoy reading and writing about how technology, culture,
