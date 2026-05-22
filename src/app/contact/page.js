@@ -27,7 +27,9 @@ export default function Contact() {
               happy to chat. If I don&apos;t know the answers, I&apos;m always happy to connect you with one of my peers
               that might.
             </p>
+            {/* TODO: create a people-i-admire or peers page for linking the above sentence... */}
             <h2 className="text-4xl font-bold mb-2">links and such</h2>
+            {/* TODO: style bullets */}
             <ul className="mb-4 ">
               <li>
                 <a href="https://www.linkedin.com/in/amohkobe/" target="_blank">
@@ -44,6 +46,7 @@ export default function Contact() {
                   Email
                 </a>
               </li>
+              {/* TODO: create folder for resume */}
               <li>
                 <a href="/docs/kobe-amoh-resume-2026.pdf">Resume (PDF)</a>
               </li>
@@ -54,3 +57,6 @@ export default function Contact() {
     </div>
   );
 }
+// TODO: might have to style the links bullets...
+// TODO: need a folder for resume to live and/or other docs?
+// TODO: move social links into footer.
