@@ -1,8 +1,8 @@
 // TODO: site easter egg after hovering for a bit? secret page for academic work or friends' portolios?
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-surface flex items-center justify-evenly px-4 gap-6 pt-20 pb-8 text-sm">
-      <div className="container mx-auto">
+    <footer className="bg-foreground text-surface pt-20 pb-8 text-sm">
+      <div className="container mx-auto flex items-center justify-evenly gap-6">
         <div className="flex-1">
           {/* TODO: is there a more semantic way to name the three divs and avoid div soup? */}
           <p>Site design and build supervised by one (1) orange cat 🐈.</p>
