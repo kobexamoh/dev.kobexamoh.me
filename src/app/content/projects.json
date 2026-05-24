@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Service Design: Embedded Undergraduate Certificates",
+    "slug": "embedded-undergraduate-certificates",
+    "group": "University of Alberta Admissions",
+    "description": "Designed and built a service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates.",
+    "tools": ["Figma", "Cascade", "Bootstrap"],
+    "section": "current"
+  },
+  {
+    "title": "Site Migration + Build: Alberta Land Institute",
+    "slug": "alberta-land-institute",
+    "group": "Alberta Land Institute",
+    "description": "",
+    "tools": [""],
+    "section": ""
+  },
+  {
+    "title": "",
+    "slug": "",
+    "group": "",
+    "description": "",
+    "tools": [""],
+    "section": "past"
+  }
+]
