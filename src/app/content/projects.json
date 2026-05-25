@@ -11,7 +11,7 @@
     "title": "Site Migration + Build: Alberta Land Institute",
     "slug": "alberta-land-institute",
     "group": "Alberta Land Institute",
-    "description": "",
+    "description": "After Alberta Land Institute's website was moved to our Cascade instance, I and a few colleagues brought the site content in line with our design system.",
     "tools": [""],
     "section": ""
   },
