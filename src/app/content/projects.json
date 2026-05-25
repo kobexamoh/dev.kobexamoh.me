@@ -12,15 +12,15 @@
     "slug": "alberta-land-institute",
     "group": "Alberta Land Institute",
     "description": "After Alberta Land Institute's website was moved to our Cascade instance, I and a few colleagues brought the site content in line with our design system.",
-    "tools": [""],
-    "section": ""
+    "tools": ["Figma", "Cascade CMS", "Google Sheets"],
+    "section": "past"
   },
   {
-    "title": "",
-    "slug": "",
-    "group": "",
-    "description": "",
-    "tools": [""],
-    "section": "past"
+    "title": "U of A Connect: Marketing Landing Page",
+    "slug": "u-of-a-connect-marketing-landing-page",
+    "group": "Office of the Vice-President (International, Innovation + Enterprise)",
+    "description": "Created a marketing landing page for U of A Connect to attract external organizations for partnerships in research, innovation, and talent acquisition across various high-impact areas. The page includes information on the university's strengths, partnership opportunities, and a contact form for potential collaborators.",
+    "tools": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "section": "present"
   }
 ]
