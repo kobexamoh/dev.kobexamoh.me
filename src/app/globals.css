@@ -16,6 +16,7 @@
   --active: #C2B6CE;           /* muted lavender — active links */
   --surface: #f0f2f5;          /* light gray-blue — card/frame backgrounds */
   --takeaway-bg: rgba(193, 188, 172, 0.24); /* warm gray — callout blocks */
+  --status: #89A6FB;         /* soft blue — status indicators */
 }
 
 @theme inline {
@@ -26,6 +27,7 @@
   --color-visited: var(--visited);
   --color-active: var(--active);
   --color-surface: var(--surface);
+  --color-status: var(--status);
 }
 
 body {
