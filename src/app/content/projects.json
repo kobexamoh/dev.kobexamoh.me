@@ -1,5 +1,7 @@
 [
   {
+    "id": 0,
+    "altText": "a screenshot of the service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates",
     "title": "Service Design: Embedded Undergraduate Certificates",
     "slug": "embedded-undergraduate-certificates",
     "group": "University of Alberta Admissions",
@@ -9,6 +11,8 @@
     "year": "2025"
   },
   {
+    "id": 1,
+    "altText": "a screenshot of the homepage for the Alberta Land Institute's website, which features a hero image of a prairie landscape and a navigation menu with links to various sections of the site",
     "title": "Site Migration + Build: Alberta Land Institute",
     "slug": "alberta-land-institute",
     "group": "Alberta Land Institute",
@@ -18,6 +22,8 @@
     "year": "2025"
   },
   {
+    "id": 2,
+    "altText": "a screenshot of the marketing landing page for U of A Connect",
     "title": "U of A Connect: Marketing Landing Page",
     "slug": "u-of-a-connect-marketing-landing-page",
     "group": "Office of the Vice-President (International, Innovation + Enterprise)",
