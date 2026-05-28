@@ -14,7 +14,7 @@ export default function CaseStudyCard({ project }) {
         />
       </div>
       {/* text */}
-      <div className="w-2/3">
+      <div className="w-2/3 relative">
         <h3 className="font-bold text-2xl">
           {project.title} [{project.year}]
         </h3>
@@ -24,7 +24,7 @@ export default function CaseStudyCard({ project }) {
         <div className="text-sm">
           <p>Client: {project.group}</p>
           <p>Tools: {project.tools.join(", ")}</p>
-          <p>Project status: {project.section}</p>
+          <p className="rounded-full text-surface bg-status px-3 py-1 inline absolute bottom-0 right-1 text-sm">Project status: {project.section}</p>
         </div>
       </div>
     </div>
@@ -32,3 +32,4 @@ export default function CaseStudyCard({ project }) {
 }
 // TODO: maybe turn project.section into a pill style thing not a p tag.
 // TODO: don't forget the link tag so clicking thru takes one to the individual case study itself (unless that's Phase 2...) (so remember to import Link before commiting)
+// TODO: decide if pill colours should be same as page bg or not...
