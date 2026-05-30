@@ -17,6 +17,7 @@
   --surface: #f0f2f5;          /* light gray-blue — card/frame backgrounds */
   --takeaway-bg: rgba(193, 188, 172, 0.24); /* warm gray — callout blocks */
   --status: #89A6FB;         /* soft blue — status indicators */
+  --status-text: #8C8C8C;     /* medium gray — status text */
 }
 
 @theme inline {
@@ -28,10 +29,15 @@
   --color-active: var(--active);
   --color-surface: var(--surface);
   --color-status: var(--status);
+  --color-status-text: var(--status-text);
 }
 
-body {
+body, h1 {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Oxygen', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Fira Sans', sans-serif;
 }
