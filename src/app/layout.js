@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 
 // Font imports
 import { Oxygen } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 
 // Font configuration
@@ -11,6 +12,10 @@ const oxygen = Oxygen({
   weight: ["300", "400", "700"],
   subsets: ["latin"],
 });
+const firaSans = Fira_Sans({
+  weight: ["100", "300", "600", "700", "900"],
+  subsets: ["latin"],
+})
 
 // TODO: update metadata to personal site
 export const metadata = {
