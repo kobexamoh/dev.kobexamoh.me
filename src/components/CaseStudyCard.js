@@ -22,7 +22,7 @@ export default function CaseStudyCard({ project }) {
         <p className="text-body mb-2">
           {project.description}
         </p>
-        <div className="text-sm">
+        <div className="text-body">
           <p className="mb-2">Client: {project.group}</p>
           <p>Tools: {project.tools.join(", ")}</p>
           <p className="rounded-full text-status-text border border-status px-3 py-1 inline absolute bottom-0 right-1 text-sm hover:bg-foreground hover:text-surface hover:font-semibold">Project status: {project.section}</p>
