@@ -8,7 +8,8 @@
     "description": "Designed and built a service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates.",
     "tools": ["Figma", "Cascade", "Bootstrap"],
     "section": "current",
-    "year": "2025"
+    "year": "2025",
+    "url": "https://www.ualberta.ca/en/admissions-programs/embedded-undergraduate-certificates/index.html"
   },
   {
     "id": 1,
@@ -19,7 +20,8 @@
     "description": "After Alberta Land Institute's website was moved to our Cascade instance, I and a few colleagues brought the site content in line with our design system.",
     "tools": ["Figma", "Cascade CMS", "Google Sheets"],
     "section": "past",
-    "year": "2025"
+    "year": "2025",
+    "url": "https://www.ualberta.ca/en/alberta-land-institute/index.html"
   },
   {
     "id": 2,
@@ -30,6 +32,7 @@
     "description": "Created a marketing landing page for U of A Connect to attract external organizations for partnerships in research, innovation, and talent acquisition across various high-impact areas. The page includes information on the university's strengths, partnership opportunities, and a contact form for potential collaborators.",
     "tools": ["HTML", "CSS", "JavaScript", "jQuery"],
     "section": "current",
-    "year": "2026"
+    "year": "2026",
+    "url": "https://www.ualberta.ca/en/connect/partner-with-u-of-a.html"
   }
 ]
