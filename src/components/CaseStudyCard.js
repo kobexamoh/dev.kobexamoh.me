@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function CaseStudyCard({ project }) {
   // render all the project info into a card layout a la Tailwind style
   return (
@@ -25,7 +27,8 @@ export default function CaseStudyCard({ project }) {
         <div className="text-body">
           <p className="mb-2">Client: {project.group}</p>
           <p>Tools: {project.tools.join(", ")}</p>
-          <p className="rounded-full text-status-text border border-status px-3 py-1 inline absolute bottom-0 right-1 text-sm hover:bg-foreground hover:text-surface hover:font-semibold">Project status: {project.section}</p>
+          <p className="rounded-full text-status-text border border-status px-3 py-1 inline absolute bottom-0 left-1 text-sm hover:bg-foreground hover:text-surface hover:font-semibold">Project status: {project.section}</p>
+          <Link href={project.url} className="text-sm font-bold text-active absolute bottom-0 right-1 hover:underline">View live project</Link>
         </div>
       </div>
     </div>
