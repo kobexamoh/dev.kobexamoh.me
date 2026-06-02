@@ -5,7 +5,7 @@ export default function CaseStudyCard({ project }) {
   // render all the project info into a card layout a la Tailwind style
   return (
     // card itself
-    <div className="flex bg-surface mb-4 p-4 rounded-md shadow-md md:gap-4">
+    <div className="flex bg-white mb-4 p-4 rounded-md shadow-md md:gap-4">
       {/* image */}
       <div className="w-1/3">
         <Image
