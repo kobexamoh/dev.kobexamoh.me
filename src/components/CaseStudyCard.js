@@ -5,9 +5,9 @@ export default function CaseStudyCard({ project }) {
   // render all the project info into a card layout a la Tailwind style
   return (
     // card itself
-    <div className="flex bg-white mb-4 p-4 rounded-md shadow-md gap-2 md:gap-4">
+    <div className="flex bg-white mb-4 p-4 rounded-md shadow-md gap-2 md:gap-6">
       {/* image */}
-      <div className="w-1/3">
+      <div className="w-1/4">
         <Image
           src="https://kobexamoh.me/img/work/embedded-undergraduate-certificates-homepage-desktop.jpg"
           alt={project.altText}
@@ -17,15 +17,15 @@ export default function CaseStudyCard({ project }) {
         />
       </div>
       {/* text */}
-      <div className="w-2/3 relative">
-        <h3 className="font-bold text-2xl/6 md:leading-7 lg:leading-8">
+      <div className="w-3/4 relative">
+      <p className="mb-4 text-sm">{project.group}</p>
+        <h3 className="font-bold text-3xl/6 md:leading-7 lg:leading-8 mb-2">
           {project.title} [{project.year}]
         </h3>
         <p className="text-body leading-5 md:leading-6 mb-1">
           {project.description}
         </p>
         <div className="text-body">
-          <p className="mb-1">Client: {project.group}</p>
           <p className="mb-1">Tools: {project.tools.join(", ")}</p>
           <p className="rounded-full text-status-text border border-status px-3 py-1 inline absolute bottom-0 left-1 text-sm hover:bg-foreground hover:text-surface hover:font-semibold">Project status: {project.section}</p>
           <Link href={project.url} className="text-sm font-bold text-active absolute bottom-0 right-1 hover:underline">View live project</Link>
