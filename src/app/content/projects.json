@@ -1,6 +1,18 @@
 [
   {
     "id": 0,
+    "altText": "a screenshot of the marketing landing page for U of A Connect",
+    "title": "U of A Connect: Marketing Landing Page",
+    "slug": "u-of-a-connect-marketing-landing-page",
+    "group": "University of Alberta, Office of the Vice-President (International, Innovation + Enterprise)",
+    "description": "Created a marketing landing page for U of A Connect to attract external organizations for partnerships in research, innovation, and talent acquisition across various high-impact areas. The page includes information on the university's strengths, partnership opportunities, and a contact form for potential collaborators.",
+    "tools": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "section": "current",
+    "year": "2026",
+    "url": "https://www.ualberta.ca/en/connect/partner-with-u-of-a.html"
+  },
+  {
+    "id": 1,
     "altText": "a screenshot of the service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates",
     "title": "Service Design: Embedded Undergraduate Certificates",
     "slug": "embedded-undergraduate-certificates",
@@ -12,7 +24,7 @@
     "url": "https://www.ualberta.ca/en/admissions-programs/embedded-undergraduate-certificates/index.html"
   },
   {
-    "id": 1,
+    "id": 2,
     "altText": "a screenshot of the homepage for the Alberta Land Institute's website, which features a hero image of a prairie landscape and a navigation menu with links to various sections of the site",
     "title": "Site Migration + Build: Alberta Land Institute",
     "slug": "alberta-land-institute",
@@ -22,17 +34,5 @@
     "section": "past",
     "year": "2025",
     "url": "https://www.ualberta.ca/en/alberta-land-institute/index.html"
-  },
-  {
-    "id": 2,
-    "altText": "a screenshot of the marketing landing page for U of A Connect",
-    "title": "U of A Connect: Marketing Landing Page",
-    "slug": "u-of-a-connect-marketing-landing-page",
-    "group": "Office of the Vice-President (International, Innovation + Enterprise)",
-    "description": "Created a marketing landing page for U of A Connect to attract external organizations for partnerships in research, innovation, and talent acquisition across various high-impact areas. The page includes information on the university's strengths, partnership opportunities, and a contact form for potential collaborators.",
-    "tools": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "section": "current",
-    "year": "2026",
-    "url": "https://www.ualberta.ca/en/connect/partner-with-u-of-a.html"
   }
 ]
