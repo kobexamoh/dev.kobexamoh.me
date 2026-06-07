@@ -19,9 +19,10 @@ export default function CaseStudyCard({ project }) {
       {/* text */}
       <div className="w-3/4 relative">
       <p className="mb-4 text-sm">{project.group}</p>
-        <h3 className="font-bold text-3xl/6 md:leading-7 lg:leading-8 mb-2">
+        <h3 className="font-bold text-3xl/6 md:leading-7 lg:leading-8">
           {project.title} [{project.year}]
         </h3>
+        <p className="text-sm mb-3">{project.type}</p>
         <p className="text-body leading-5 md:leading-6 mb-1">
           {project.description}
         </p>
