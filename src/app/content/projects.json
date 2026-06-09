@@ -2,7 +2,8 @@
   {
     "id": 0,
     "altText": "a screenshot of the marketing landing page for U of A Connect",
-    "title": "U of A Connect: Marketing Landing Page",
+    "title": "U of A Connect",
+    "type": "Marketing, Landing Page",
     "slug": "u-of-a-connect-marketing-landing-page",
     "group": "University of Alberta, Office of the Vice-President (International, Innovation + Enterprise)",
     "description": "Created a marketing landing page for U of A Connect to attract external organizations for partnerships in research, innovation, and talent acquisition across various high-impact areas. The page includes information on the university's strengths, partnership opportunities, and a contact form for potential collaborators.",
@@ -14,7 +15,8 @@
   {
     "id": 1,
     "altText": "a screenshot of the service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates",
-    "title": "Service Design: Embedded Undergraduate Certificates",
+    "title": "Embedded Undergraduate Certificates",
+    "type": "Service Design, Web Design, Web Development",
     "slug": "embedded-undergraduate-certificates",
     "group": "University of Alberta Admissions",
     "description": "Designed and built a service page for the University of Alberta's Admissions' new offering, Embedded Undergraduate Certificates.",
@@ -26,7 +28,8 @@
   {
     "id": 2,
     "altText": "a screenshot of the homepage for the Alberta Land Institute's website, which features a hero image of a prairie landscape and a navigation menu with links to various sections of the site",
-    "title": "Site Migration + Build: Alberta Land Institute",
+    "title": "Alberta Land Institute",
+    "type": "Web Development, Content Migration, Design System Implementation",
     "slug": "alberta-land-institute",
     "group": "Alberta Land Institute",
     "description": "After Alberta Land Institute's website was moved to our Cascade instance, I and a few colleagues brought the site content in line with our design system.",
