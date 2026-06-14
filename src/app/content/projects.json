@@ -11,7 +11,7 @@
     "section": "current",
     "year": "2026",
     "url": "https://www.ualberta.ca/en/connect/partner-with-u-of-a.html",
-    "imgSrc": "/public/img/work/u-of-a-connect-landing-page.jpg"
+    "imgSrc": "/img/work/u-of-a-connect-landing-page.jpg"
   },
   {
     "id": 1,
@@ -25,7 +25,7 @@
     "section": "current",
     "year": "2025",
     "url": "https://www.ualberta.ca/en/admissions-programs/embedded-undergraduate-certificates/index.html",
-    "imgSrc": "/public/img/work/embedded-undergraduate-certificates-homepage.jpg"
+    "imgSrc": "/img/work/embedded-undergraduate-certificates-homepage.jpg"
   },
   {
     "id": 2,
@@ -39,6 +39,6 @@
     "section": "past",
     "year": "2025",
     "url": "https://www.ualberta.ca/en/alberta-land-institute/index.html",
-    "imgSrc": "/public/img/work/alberta-land-institute-homepage.jpg"
+    "imgSrc": "/img/work/alberta-land-institute-homepage.jpg"
   }
 ]
