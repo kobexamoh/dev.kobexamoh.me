@@ -21,6 +21,15 @@
   
   /* Additional tokens for the new design elements that weren't in the original site. unsure how to categorize these yet, so just putting them here for now. */
   --card-bg-light: #f4f7f6; /* very light mint — card backgrounds in new design */
+
+  /* colours not in use yet, but keeping here for testing later? */
+   --bg-light-gray: #f0f0f0; /* light gray — potential background or surface color */
+  --bg-off-white: #eeeeee; /* off-white — potential background or surface color */
+  --bg-cream: #f7f5f0; /* cream — potential background or surface color */
+    /* border colours not in use yet but jotting down for later...*/
+  --border-light: #e0e0e0; /* light gray — potential border color */
+    /* shadow tinting from experimenting, not in use yet but jotting down for later... */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); /* subtle shadow with very light tint */
 }
 
 @theme inline {
