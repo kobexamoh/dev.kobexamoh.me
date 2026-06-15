@@ -18,6 +18,9 @@
   --takeaway-bg: rgba(193, 188, 172, 0.24); /* warm gray — callout blocks */
   --status: #89A6FB;         /* soft blue — status indicators */
   --status-text: #8C8C8C;     /* medium gray — status text */
+  
+  /* Additional tokens for the new design elements that weren't in the original site. unsure how to categorize these yet, so just putting them here for now. */
+  --card-bg-light: #f4f7f6; /* very light mint — card backgrounds in new design */
 }
 
 @theme inline {
@@ -30,6 +33,7 @@
   --color-surface: var(--surface);
   --color-status: var(--status);
   --color-status-text: var(--status-text);
+  --color-card-bg-light: var(--card-bg-light);
 }
 
 body, h1 {
