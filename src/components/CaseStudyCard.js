@@ -6,13 +6,13 @@ export default function CaseStudyCard({ project }) {
   return (
     // card itself
     <div className="flex flex-col md:flex-row gap-2 md:gap-6 bg-card-bg-light border border-gray-200 rounded-xl md:rounded-3xl p-2 md:p-4">
-        <Image
-          src={project.imgSrc}
-          alt={project.altText}
-          width={400}
-          height={300}
-          className="w-full md:w-1/4 rounded-md md:rounded-lg object-cover"
-        />
+      <Image
+        src={project.imgSrc}
+        alt={project.altText}
+        width={400}
+        height={300}
+        className="w-full md:w-1/4 rounded-md md:rounded-lg object-cover"
+      />
       <div className="w-full md:w-3/4 pt-2">
         <h3 className="text-2xl font-bold">Title</h3>
         <p className="text-sm text-status-text">Description</p>
